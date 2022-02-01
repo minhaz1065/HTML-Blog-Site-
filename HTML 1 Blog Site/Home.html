@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .main {
+            width: 1000px;
+            margin: 0 auto;
+            max-width: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul {
+            padding: 0;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+        a {
+            color: rgb(0, 195, 255);
+            text-decoration: none;
+        }
+        h2{
+            color: rgb(16, 6, 107);
+        }
+        p{
+            color: rgb(0, 89, 255);
+        }
+        a:hover {
+            color: rgb(255, 0, 0);
+        }
+        
+        .header .navbar ul,
+        .footer .group ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .header .navbar {
+            background-color: rgb(16, 6, 107);
+        }
+        .header .navbar ul li{
+            padding: 20px;
+            display: flex;
+            font-size: 16pt;
+        }
+        .blog {
+            display: flex;
+        }
+        .blog .post {
+            border: 2px solid rgb(137, 227, 255);
+            padding: 20px;
+            flex: 700px;
+        }
+        .blog .post .blogpost {
+            border-bottom: 2px solid rgb(16, 6, 107);
+        }
+        .blog .left {
+            border: 2px solid rgb(137, 227, 255);
+            padding: 10px;
+            margin-left: 10px;
+            flex: 300px;
+            line-height: 1.5;
+        }
+        .footer {
+            text-align: center;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+        
+        .footer .group ul {
+            justify-content: center;
+        }
+        
+        .footer ul li {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <a href="#"><img src="logo.png" alt="Logo"></a>
+    <div class="navbar">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="blog">
+        <div class="post">
+            <div class="blogpost">
+                <h2>Photoshop</h2>
+                <p>In this tutorial If you can dream it, you can make it with Adobe Photoshop. Create beautiful images, graphics, paintings, and 3D artwork on your desktop or iPad. Join today.</p>
+            </div>
+            <div class="blogpost">
+                <h2>Microsoft Office</h2>
+                <p>In this tutorial Whether you’re new to Office or simply want to refresh your skills, you’re in the right place. Our lessons offer a mix of text, video, interactives, and challenges to practice what you learn.</p>
+            </div>
+            <div class="blogpost">
+                <h2>HTML CSS</h2>
+                <p>In this tutorial HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+            </div>
+        </div>
+        <div class="left">
+            <h2>Recent Post</h2>
+            <ul>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+            </ul>
+            <h2>Upcoming</h2>
+            <ul>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+                <li><a href="#">Click here...</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="group">
+            <ul>
+                <li><a href="#">Site map</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <address>Forester Bari, Chowmatha, Barisal, Bangladesh</address>
+        <a href="#">www.khantutorialsbd.com</a>
+    </div>
+</div>
+</body>
+</html>
